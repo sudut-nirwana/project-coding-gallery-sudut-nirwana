@@ -28,13 +28,12 @@ html.no-scroll{
    text-align: center;
    font-family: sans-serif;
 }
-   
 .spinner {
    width: 40px;
    height: 40px;
    margin: 0 auto 15px;
    border: 4px solid #f3f3f3;
-   border-top: 4px solid #2563eb; /* Warna biru modern */
+   border-top: 4px solid #ee4e00; /* Warna biru modern */
    border-radius: 50%;
    animation: spin 1s linear infinite;
 }
@@ -283,6 +282,7 @@ body{
 #hero-section .container{
    display: flex;
    flex-direction: column;
+   align-items: center;
 }
 #hero-section .hero-description{
    /*text-align: center;*/
@@ -350,6 +350,7 @@ body{
    border-radius: 6px;
    font-size: 15px;
    box-shadow: 0 3px 8px rgba(0,0,0,.2);
+   align-self: flex-start;
 }
 #hero-section .cta-phone{
    display: inline-block;
@@ -362,6 +363,7 @@ body{
    border-radius: 6px;
    font-size: 15px;
    box-shadow: 0 3px 8px rgba(0,0,0,.2);
+   align-self: flex-start;
 }
 #hero-section .cta-phone:hover{
    box-shadow: 0 3px 8px rgba(0,0,0,.5);
@@ -393,7 +395,6 @@ body{
 }
 #gallery .wrapper-kategori a {
    display: inline-block;
-   aspect-ratio: 3 / 4;
    border-radius: 10px;
    width: 100%;
    box-shadow: 0 4px 12px rgba(0,0,0,.2);
@@ -406,7 +407,7 @@ body{
 }
 #gallery .wrapper-kategori .img-kategori{
    width: 100%;
-   height: 65%;
+   aspect-ratio: 1 / 1;
    background: #ddd;
    overflow: hidden;
 }
@@ -418,11 +419,9 @@ body{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   gap: 2px;
    width: 100%;
-   height: 35%;
    background: #fff;
-   padding: 8px;
+   padding: 10px;
    box-sizing: border-box;
    font-size: 12px;
    line-height: 1.1;
@@ -430,9 +429,11 @@ body{
 }
 #gallery .wrapper-kategori .title-kategori h3{
    color: #444444;
+   margin-bottom: 5px;
 }
 #gallery .wrapper-kategori .title-kategori span{
    color: #aaa;
+   margin-bottom: 8px;
 }
 #gallery .wrapper-kategori .title-kategori p{
    color: #666666;
@@ -823,8 +824,4 @@ body{
       opacity: 1;
       transform: translateY(0);
    }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 90ef428 (update lewat termux)

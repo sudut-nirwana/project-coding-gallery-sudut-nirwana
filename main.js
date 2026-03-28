@@ -90,8 +90,6 @@ $(document).ready(function() {
 //apk update && apk upgrade
 //ssh-keygen
 //ssh -R 80:localhost:8080 nolookup@localhost.run
-<<<<<<< HEAD
 //php -S localhost:8080
-=======
 //php -S localhost:8080
->>>>>>> 90ef428 (update lewat termux)
+

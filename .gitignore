@@ -1,0 +1,12 @@
+# File sampah sistem Android/Thumbnails
+.thumbnails/
+.Thumbnails/
+*.log
+*.tmp
+
+# Folder dari Termux/Git yang tidak perlu
+.DS_Store
+Thumbs.db
+
+# Folder backup Acode (jika ada)
+.ace/
